@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BowlingScene.unity
     guid: bd01f1ab988dcdd4bb8795fece9f7be6
+  - enabled: 1
+    path: Assets/Scenes/ShooterScene.unity
+    guid: 97da2761c441da146bbd68ff3053e9ae
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75d6694002fbfac4ab8cf98bf5acd2ba, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
