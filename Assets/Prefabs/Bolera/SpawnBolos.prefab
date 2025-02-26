@@ -44,6 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 065978d89e1cd7449bedcb29f44ffe5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boloPrefab: {fileID: 7420023029486125984, guid: b259208825161f944a430a872bf4b57a, type: 3}
+  boloPrefab: {fileID: 6885124826326707039, guid: 9b5744494af5a0e43aafa2dc62f7814a, type: 3}
   spawnPoint: {fileID: 1641219733009252972}
   spacing: 0.2
