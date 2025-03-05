@@ -11,6 +11,43 @@ public class PuntuacionManager : MonoBehaviour
     public List<List<int>> puntos = new List<List<int>>();
     public List<List<int>> puntosMostrados = new List<List<int>>();
 
+    public bool PuedeTirar(int turnoActual)
+    {
+        
+        if (turnoActual + 1 == totalTurnos)
+        {
+            //Es el ultimo turno
+            if (puntos[turnoActual].Count <= 1)
+            {
+                //Ha tirado menos de dos veces
+                return true;
+            }
+            else
+            {
+                if (EsPleno(turnoActual) && puntos[turnoActual].Count <= 3)
+                {
+                    return true;
+                }else if (EsSemiPleno(turnoActual) && puntos[turnoActual].Count <= 3)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            
+        }
+        else
+        {
+            if (puntos[turnoActual].Count <= 1)
+            {
+                //Ha tirado menos de dos veces
+                return !EsPleno(turnoActual);
+            }
+            return true;
+        }
+    }
 
     public void setTirada(int turnoActual, int bolosTirados)
     {
