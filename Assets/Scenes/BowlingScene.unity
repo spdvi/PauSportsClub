@@ -801,6 +801,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.509
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 6834463155775260050, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
       propertyPath: 'bolas.Array.data[0]'
       value: 
@@ -813,6 +814,8 @@ PrefabInstance:
       propertyPath: 'bolas.Array.data[2]'
       value: 
       objectReference: {fileID: 101853143}
+=======
+>>>>>>> d69e1917a883da9a282ca9cef782b85446b8f4e4
     - target: {fileID: 7226654625869840425, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.391
