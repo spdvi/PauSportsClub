@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &101853143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 660164599896320340, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+  m_PrefabInstance: {fileID: 801943305}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &128511091
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +449,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234508666}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &358321131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3810917755020643444, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+  m_PrefabInstance: {fileID: 801943305}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &400128466
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -791,6 +801,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.509
       objectReference: {fileID: 0}
+    - target: {fileID: 6834463155775260050, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+      propertyPath: 'bolas.Array.data[0]'
+      value: 
+      objectReference: {fileID: 358321131}
+    - target: {fileID: 6834463155775260050, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+      propertyPath: 'bolas.Array.data[1]'
+      value: 
+      objectReference: {fileID: 903781083}
+    - target: {fileID: 6834463155775260050, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+      propertyPath: 'bolas.Array.data[2]'
+      value: 
+      objectReference: {fileID: 101853143}
     - target: {fileID: 7226654625869840425, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.391
@@ -856,6 +878,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+--- !u!1 &903781083 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2461196396827558719, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+  m_PrefabInstance: {fileID: 801943305}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &990439119
 GameObject:
   m_ObjectHideFlags: 0
