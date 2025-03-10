@@ -45,7 +45,7 @@ public class PuntuacionManager : MonoBehaviour
                 //Ha tirado menos de dos veces
                 return !EsPleno(turnoActual);
             }
-            return true;
+            return false;
         }
     }
 
@@ -53,7 +53,7 @@ public class PuntuacionManager : MonoBehaviour
     {
         puntos[turnoActual].Add(bolosTirados);
         CalcularPuntuacion();
-        // Debug.Log("Puntuacion Total: " + puntuacionTotal);
+        Debug.Log("Puntuacion Total: " + puntuacionTotal);
     }
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
