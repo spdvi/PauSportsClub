@@ -29,7 +29,7 @@ namespace Bolera
                     float zOffset = row * spacing; // Desplazar en Z
                     Vector3 boloPosition = spawnPoint.position + new Vector3(xOffset, 0, zOffset);
                     
-                    GameObject pin = Instantiate(boloPrefab, boloPosition, Quaternion.Euler(-90, 0, 0));
+                    GameObject pin = Instantiate(boloPrefab, boloPosition, Quaternion.Euler(0, 0, 0));
                     
                     spawnedPins.Add(pin);
                 }
