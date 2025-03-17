@@ -791,6 +791,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.509
       objectReference: {fileID: 0}
+    - target: {fileID: 6834463155775260050, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+      propertyPath: 'bolas.Array.data[0]'
+      value: 
+      objectReference: {fileID: 801943308}
+    - target: {fileID: 6834463155775260050, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+      propertyPath: 'bolas.Array.data[1]'
+      value: 
+      objectReference: {fileID: 801943307}
+    - target: {fileID: 6834463155775260050, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+      propertyPath: 'bolas.Array.data[2]'
+      value: 
+      objectReference: {fileID: 801943306}
     - target: {fileID: 7226654625869840425, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.391
@@ -856,6 +868,21 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+--- !u!1 &801943306 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 660164599896320340, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+  m_PrefabInstance: {fileID: 801943305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &801943307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2461196396827558719, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+  m_PrefabInstance: {fileID: 801943305}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &801943308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3810917755020643444, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+  m_PrefabInstance: {fileID: 801943305}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &990439119
 GameObject:
   m_ObjectHideFlags: 0
