@@ -19,6 +19,7 @@ public class TurnosManager : MonoBehaviour
     {
         DetectarTirado.OnTirar?.AddListener(BoloTirado);
         //Detectar si bola ha llegado suscribiendome al evento que toque.
+        BolaHaLlegado.pasarTurno?.AddListener(Tirar);
     }
     public void Tirar()
     {
