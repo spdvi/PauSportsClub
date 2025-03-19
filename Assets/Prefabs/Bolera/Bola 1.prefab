@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 5434498125919162890}
   - component: {fileID: 2156827349719327236}
   - component: {fileID: 512784495161304163}
+  - component: {fileID: 4004584480489135894}
   m_Layer: 0
   m_Name: Bola 1
   m_TagString: Untagged
@@ -324,3 +325,18 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
+--- !u!114 &4004584480489135894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8528659462693391180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2dcd76ff8df0684f9d058543d8d0041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contador: 0
+  tiempoLimite: 10
+  haTocadoPista: 0
