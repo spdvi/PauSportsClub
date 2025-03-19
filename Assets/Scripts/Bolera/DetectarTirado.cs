@@ -31,20 +31,26 @@ public class DetectarTirado : MonoBehaviour
 
     public bool DetectarCaido()
     {
-        float angle = this.transform.rotation.eulerAngles.x;
+        float angleX = this.transform.rotation.eulerAngles.x;
+        float angleZ = this.transform.rotation.eulerAngles.z;
         
-        angle %= 360;
-        if (angle > 180)
+        angleX %= 360;
+        if (angleX > 180)
         {
-            angle = angle - 360;
+            angleX = angleX - 360;
+        }
+        angleZ %= 360;
+        if (angleZ > 180)
+        {
+            angleZ = angleZ - 360;
         }
             
         
         // Debug.Log(angle);
         
-        float maxXangle = -45f;
-        float minXangle = -135f;
-        return (angle < minXangle || angle > maxXangle);
+        float maxAngle = 45f;
+        float minAngle = -45f;
+        return (angleX < minAngle || angleX > maxAngle) || (angleZ < minAngle || angleZ > maxAngle);
         // this.transform.localRotation.x;
         // return true;
     }
