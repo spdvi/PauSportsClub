@@ -45,7 +45,7 @@ public class PuntuacionManager : MonoBehaviour
                 //Ha tirado menos de dos veces
                 return !EsPleno(turnoActual);
             }
-            return true;
+            return false;
         }
     }
 

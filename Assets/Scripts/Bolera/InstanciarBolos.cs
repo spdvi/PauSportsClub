@@ -38,7 +38,7 @@ namespace Bolera
 
         void ClearPins()
         {
-            foreach (GameObject pin in spawnPoint)
+            foreach (GameObject pin in spawnedPins)
             {
                 Destroy(pin);
             }
