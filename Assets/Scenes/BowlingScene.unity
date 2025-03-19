@@ -884,6 +884,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7513962162137214990, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
+      propertyPath: m_TagString
+      value: FinalPistaBolos
+      objectReference: {fileID: 0}
     - target: {fileID: 8424838954495597866, guid: 44ce43c287e451a4a9a22ed929201357, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.166
@@ -1198,6 +1202,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 29b200c5be0f6a74884a988f8b2e1537, type: 2}
+    - target: {fileID: 3294796300545557369, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
+      propertyPath: m_TagString
+      value: PistaBolos
+      objectReference: {fileID: 0}
     - target: {fileID: 5374065675367214467, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
       propertyPath: m_Material
       value: 
@@ -1214,6 +1222,10 @@ PrefabInstance:
       propertyPath: m_Material
       value: 
       objectReference: {fileID: 13400000, guid: 29b200c5be0f6a74884a988f8b2e1537, type: 2}
+    - target: {fileID: 5927520308537931271, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
+      propertyPath: m_TagString
+      value: PistaBolos
+      objectReference: {fileID: 0}
     - target: {fileID: 7142972313398897136, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.63
@@ -1254,8 +1266,24 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7366248493190268085, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
+      propertyPath: m_TagString
+      value: PistaBolos
+      objectReference: {fileID: 0}
     - target: {fileID: 7524177789971805002, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
       propertyPath: m_Name
+      value: PistaBolos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7524177789971805002, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
+      propertyPath: m_TagString
+      value: PistaBolos
+      objectReference: {fileID: 0}
+    - target: {fileID: 7885921264567053128, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
+      propertyPath: m_TagString
+      value: PistaBolos
+      objectReference: {fileID: 0}
+    - target: {fileID: 9165465280342421505, guid: 49f5b4ec6bc3baa4592508108b3709bd, type: 3}
+      propertyPath: m_TagString
       value: PistaBolos
       objectReference: {fileID: 0}
     m_RemovedComponents: []
