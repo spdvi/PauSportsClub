@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - BowlingBall
+  - FinalPistaBolos
+  - PistaBolos
   layers:
   - Default
   - TransparentFX
