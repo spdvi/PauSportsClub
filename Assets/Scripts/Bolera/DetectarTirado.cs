@@ -1,4 +1,6 @@
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class DetectarTirado : MonoBehaviour
 {
@@ -6,15 +8,15 @@ public class DetectarTirado : MonoBehaviour
     public float segundosDetectarCaida = 3f;
     public float segundosTranscurridos = 0f;
 
-    // Update is called once per frame
+    public static UnityEvent OnTirar = new UnityEvent();
     void Update()
     {
         if (segundosTranscurridos >= segundosDetectarCaida && !tirado)
         {
-            // TODO: DECIDIR QUE HACER CUANDO EL BOLO HAYA SIDO TIRADO
-            // SE HA DETECTADO QUE EL BOLO HA CAIDO DO SOMETHING
             Debug.Log("BOLO TIRADO");
             tirado = true;
+            OnTirar.Invoke();
+            Destroy(gameObject);
         }
         if ( DetectarCaido())
         {

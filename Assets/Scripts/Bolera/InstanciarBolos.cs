@@ -16,7 +16,7 @@ namespace Bolera
             SpawnPins();
         }
 
-        void SpawnPins()
+        public void SpawnPins()
         { 
             ClearPins();
             int rows = 4; // Número de filas
