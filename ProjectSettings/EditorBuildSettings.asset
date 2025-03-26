@@ -11,15 +11,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/3.0.7/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Room.unity
     guid: e60464d6caa8da34e927f5624a9d0996
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BowlingScene.unity
     guid: bd01f1ab988dcdd4bb8795fece9f7be6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ShooterScene.unity
     guid: 97da2761c441da146bbd68ff3053e9ae
+  - enabled: 1
+    path: Assets/DevSergioShooter/DevSergioShooter.unity
+    guid: 9c98eb268479d9648ac8219355935d11
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75d6694002fbfac4ab8cf98bf5acd2ba, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
