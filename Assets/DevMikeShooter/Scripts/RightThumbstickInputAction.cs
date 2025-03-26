@@ -24,7 +24,7 @@ public class RightThumbstickInputAction : MonoBehaviour
     {
         Vector2 rightThumbstickValue = ctx.ReadValue<Vector2>();
         yAxisValueText.text = rightThumbstickValue.x.ToString() + ", " + rightThumbstickValue.y.ToString();
-        Vector3 moveDirection = new Vector3(rightThumbstickValue.x, 0, rightThumbstickValue.y);
+        Vector3 moveDirection = new Vector3(rightThumbstickValue.y, 0, rightThumbstickValue.x);
         moveObjectTransform.position += moveDirection;
     }
     
