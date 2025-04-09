@@ -2095,6 +2095,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Button B Press",
+                    "type": "Button",
+                    "id": "88faa0d7-88a3-4bd1-a748-e495c490aa7c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -2392,6 +2401,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "RightThumbstick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8dfb41d0-2ff0-49b7-b93e-a904270ab79c",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Button B Press",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
