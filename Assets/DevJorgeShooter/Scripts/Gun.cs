@@ -40,13 +40,7 @@ public class Gun : MonoBehaviour
 
     public void DrawRayCast()
     {
-        // Debug.DrawLine(gunCannon.position, gunCannon.position + (Vector3.forward * gunRange), Color.magenta );
         lineRenderer.enabled = isGrabbed;
-        // if (lineRenderer.enabled)
-        // {
-        //     lineRenderer.SetPosition(0, gunCannon.position);    
-        //     lineRenderer.SetPosition(1, gunCannon.position + (Vector3.forward * gunRange) );    
-        // }
     }
     
     public void Grab()
@@ -69,8 +63,6 @@ public class Gun : MonoBehaviour
 
             if (target != null)
             {
-                tiros++;
-                text.text = tiros.ToString();
                 target.RecieveShot();
             }
         }
