@@ -984,15 +984,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
-                },
-                {
-                    "name": "Button Y Press Value",
-                    "type": "Value",
-                    "id": "07f21e8c-6b03-4949-b866-242bf73b49b9",
-                    "expectedControlType": "Axis",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1290,17 +1281,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Button X Press",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "518f51ed-2dcc-4798-85b8-ed8748d4ca06",
-                    "path": "<XRController>{LeftHand}/{SecondaryButton}",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Button Y Press Value",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
@@ -2086,15 +2066,6 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
-                },
-                {
-                    "name": "Right Thumbstick",
-                    "type": "Value",
-                    "id": "4f6570ab-01e4-40d0-b443-5a4cdc537088",
-                    "expectedControlType": "Vector2",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -2381,17 +2352,6 @@
                     "processors": "ScaleVector2(x=0),StickDeadzone",
                     "groups": "",
                     "action": "Translate Manipulation",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "cbda023a-4f50-4092-a8cb-5f71625f4a53",
-                    "path": "<XRController>{RightHand}/thumbstick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Right Thumbstick",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
