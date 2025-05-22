@@ -36,6 +36,11 @@ public class Shoot : MonoBehaviour
 
     public void ShootRaycast(InputAction.CallbackContext context)
     {
+        ShootRaycast(); // Llama a la versión sin parámetros
+    }
+    
+    public void ShootRaycast()
+    {
         Ray ray = new Ray(gun.position, gun.forward);
         RaycastHit hit;
         if (Physics.Raycast(gun.position, transform.TransformDirection(Vector3.forward) * range, out hit) )
